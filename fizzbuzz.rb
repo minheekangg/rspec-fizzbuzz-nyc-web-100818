@@ -7,6 +7,7 @@ def fizzbuzz(n)
     return "Buzz"
   elsif n % 3 == 0
     return "Fizz"
-
+else
+  return nil
   end
 end
